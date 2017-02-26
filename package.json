@@ -1,0 +1,41 @@
+{
+  "name": "eslint-config-awkward",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "Timon van Spronsen",
+    "email": "timon@awkward.co",
+    "url": "http://awkward.co/"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "eslint": "^3.16.1",
+    "eslint-config-standard": "^6.2.1",
+    "eslint-config-standard-jsx": "^3.3.0",
+    "eslint-config-standard-react": "^4.2.0",
+    "eslint-plugin-promise": "^3.4.2",
+    "eslint-plugin-react": "^6.10.0",
+    "eslint-plugin-standard": "^2.0.1"
+  },
+  "peerDependencies": {
+    "eslint": "^3.16.1",
+    "eslint-config-standard": "^6.2.1",
+    "eslint-config-standard-jsx": "^3.3.0",
+    "eslint-config-standard-react": "^4.2.0",
+    "eslint-plugin-promise": "^3.4.2",
+    "eslint-plugin-react": "^6.10.0",
+    "eslint-plugin-standard": "^2.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/awkward/eslint-config-awkward.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ]
+}
