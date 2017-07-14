@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint .",
+    "test": "npm run lint && jest"
   },
   "author": {
     "name": "Timon van Spronsen",
@@ -24,6 +25,7 @@
     "eslint-plugin-promise": "^3.5.0",
     "eslint-plugin-react": "^7.1.0",
     "eslint-plugin-standard": "^3.0.1",
+    "jest": "^20.0.4",
     "prettier": "^1.5.2"
   },
   "peerDependencies": {
