@@ -1,4 +1,3 @@
 module.exports = {
-  extends: ['awkward/base', 'standard-react', 'prettier/react'],
-  plugins: ['prettier']
+  extends: [require.resolve('./base.js'), 'standard-react', 'prettier/react']
 }
