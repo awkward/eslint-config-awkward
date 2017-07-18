@@ -1,12 +1,3 @@
 module.exports = {
-  extends: ['awkward/base', 'standard-react'],
-  parserOptions: {
-    ecmaVersion: 6,
-    ecmaFeatures: {
-      jsx: true,
-    },
-  },
-  rules: {
-    'jsx-quotes': [2, 'prefer-single'],
-  },
+  extends: [require.resolve('./base.js'), 'standard-react', 'prettier/react']
 }

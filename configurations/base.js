@@ -1,9 +1,15 @@
 module.exports = {
-  extends: ['standard'],
-  parserOptions: {
-    ecmaVersion: 6,
-  },
+  extends: ['standard', 'prettier'],
+  plugins: ['prettier'],
   rules: {
-    'comma-dangle': ['error', 'always-multiline'],
-  },
+    'prettier/prettier': [
+      'warn',
+      {
+        semi: false,
+        singleQuote: true,
+        bracketSpacing: true,
+        jsxBracketSameLine: true
+      }
+    ]
+  }
 }
